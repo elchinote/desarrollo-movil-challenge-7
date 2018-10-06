@@ -1,16 +1,16 @@
 import React from 'react'
 import { View, Text, Button } from 'react-native'
 
-class Screen2 extends React.Component {
+class Screen3 extends React.Component {
     
   render() {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Screen 2</Text>
-        <Button title="Ir a Screen1" onPress={() => this.props.navigation.navigate('Screen1')} />
+        <Text>Screen 3</Text>
+        <Button title="Ir a Screen2" onPress={() => this.props.navigation.navigate('Screen2')} />
       </View>
     )
   }
 }
 
-export default Screen2
+export default Screen3
