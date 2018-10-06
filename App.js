@@ -48,7 +48,7 @@ Screen3.navigationOptions = {
 
 
 export default createBottomTabNavigator({
-  Screen1,
-  Screen2,
-  Screen3,
+  Screen1:{screen:Screen1Stack} ,
+  Screen2:{screen:Screen2Stack} ,
+  Screen3:{screen:Screen3Stack} ,
 });
